@@ -1,0 +1,44 @@
+{
+  "name": "online-markdown-editor",
+  "description": "Online markdown editor built with React",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://risan.io/online-markdown-editor",
+  "author": {
+    "name": "Risan Bagja Pradana",
+    "email": "risanbagja@gmail.com",
+    "url": "https://risan.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risan/online-markdown-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/risan/online-markdown-editor/issues"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "react"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write 'src/**/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "remarkable": "^1.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
+  }
+}
